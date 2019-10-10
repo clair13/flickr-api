@@ -24,6 +24,9 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'flickr-objects', '~> 0.6.3'
 gem 'figaro', '~> 1.1', '>= 1.1.1'
+gem 'bootstrap', '~> 4.0'
+gem 'jquery-rails'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
