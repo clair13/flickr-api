@@ -7,7 +7,7 @@
     <div class="form">
       <%= form_for(:search, url: photos_path, method: :get) do |f| %>
         <%= f.text_field :id, class: 'form-field', label: "id" %>
-        <%= f.submit "Search  User photos by ID" %>
+        <%= f.submit "Search  User photos by ID", class: "btn btn-primary" %>
       <% end %>
     </div>
   </div>

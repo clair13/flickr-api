@@ -1,0 +1,14 @@
+<h1><%= @person.id %>
+
+
+<div class="large"  style="width:100%;">
+  <div class="row">
+      <% @photos.each do |photo| %>
+        <%= link_to "http://flickr.com/photo.gne?id=#{photo.id}" do %>
+          <% if photo.source_url %>
+            <%= image_tag photo.source_url, class: 'img-responsive center' %>
+          <% end %>
+        <% end %>
+      <% end %>
+  </div>
+</div>
