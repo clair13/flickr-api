@@ -1,13 +1,12 @@
 <div class="info-box">
-  <h4>Search Flickr's user photos!</h4>
+  <h4>Search Flickr's User Photos!</h4>
 </div>
-
 <div class="row">
-  <div class="col-md-6 col-offset-3">
+  <div class="col-centered">
     <div class="form">
       <%= form_for(:search, url: photos_path, method: :get) do |f| %>
         <%= f.text_field :id, class: 'form-field', label: "id" %>
-        <%= f.submit "Search  User photos by ID", class: "btn btn-primary" %>
+        <%= f.submit "Search  User Photos By ID", class: "btn btn-primary" %>
       <% end %>
     </div>
   </div>
