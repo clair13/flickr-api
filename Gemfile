@@ -27,6 +27,7 @@ gem 'figaro', '~> 1.1', '>= 1.1.1'
 gem 'bootstrap', '~> 4.0'
 gem 'jquery-rails'
 gem 'vcr', '~> 5.0'
+gem 'will_paginate', '~> 3.1.0'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
