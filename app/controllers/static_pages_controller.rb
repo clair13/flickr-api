@@ -6,6 +6,6 @@ class StaticPagesController < ApplicationController
 
   def photos
     @person = Flickr.people.find(params[:search][:id])
-    @photos =  Flickr.photos.search(user_id: @person.id, page: params[:page], per_page: 20)
+    @photos =  Flickr.photos.search(user_id: @person.id, page: params[:page], per_page: 21)
   end
 end
