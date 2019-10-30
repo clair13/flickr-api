@@ -16,9 +16,9 @@ Enter a user id and show all public photos of this user
 ## Photos
 
   Home page:
-  
-  ![home.png] (app/assets/images/home.png)
+
+  ! [home.png] (app/assets/images/home.png)
 
   Photos page:
 
-  ![photos.png] (app/assets/images/photos.png)
+  ! [photos.png] (app/assets/images/photos.png)
