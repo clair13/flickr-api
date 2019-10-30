@@ -1,24 +1,24 @@
-# README
+# Flickr API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Enter a user id and show all public photos of this user
 
-Things you may want to cover:
+## Gems that i used:
 
-* Ruby version
+  * flickr-objects
+  * figaro
+  * bootstrap
+  * will_paginate
+  * capybara
+  * vcr
+  * webmock
+  * rspec-rails
 
-* System dependencies
+## Photos
 
-* Configuration
+  Home page:
+  
+  ![home.png] (app/assets/images/home.png)
 
-* Database creation
+  Photos page:
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  ![photos.png] (app/assets/images/photos.png)
