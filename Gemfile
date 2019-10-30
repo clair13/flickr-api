@@ -28,6 +28,7 @@ gem 'bootstrap', '~> 4.0'
 gem 'jquery-rails'
 gem 'vcr', '~> 5.0'
 gem 'will_paginate', '~> 3.1.0'
+gem 'rspec-rails', '~> 3.4', '>= 3.4.2'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
