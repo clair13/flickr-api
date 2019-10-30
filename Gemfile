@@ -26,10 +26,7 @@ gem 'flickr-objects', '~> 0.6.3'
 gem 'figaro', '~> 1.1', '>= 1.1.1'
 gem 'bootstrap', '~> 4.0'
 gem 'jquery-rails'
-gem 'vcr', '~> 5.0'
 gem 'will_paginate', '~> 3.1.0'
-gem 'rspec-rails', '~> 3.4', '>= 3.4.2'
-
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
@@ -61,7 +58,10 @@ end
 group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
+  gem 'vcr', '~> 5.0'
+  gem 'webmock'
   gem 'selenium-webdriver'
+  gem 'rspec-rails', '~> 3.4', '>= 3.4.2'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
 end
